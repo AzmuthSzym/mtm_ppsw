@@ -13,6 +13,7 @@ void LedInit()
 	IO1SET = LED0_bm;
 }
 
+<<<<<<< HEAD
 void LedOn(unsigned char ucLedIndeks)
 {
 	if(ucLedIndeks>4)
@@ -24,6 +25,19 @@ void LedOn(unsigned char ucLedIndeks)
 }
 
 void LedStep(enum LedDirection iDirection)
+=======
+void LedStepLeft(void)
+{
+	LedStep(LEFT);
+}
+
+void LedStepRight(void)
+{
+	LedStep(RIGHT);
+}
+
+private void LedStep(LedDirection iDirection)
+>>>>>>> 689e3121736d8ac1df402bf31cc36aa55a066f39
 {
 	static unsigned int suiPosition;
 	switch(iDirection)
@@ -38,6 +52,7 @@ void LedStep(enum LedDirection iDirection)
 		break;
 	}
 }
+<<<<<<< HEAD
 
 void LedStepLeft(void)
 {
@@ -50,3 +65,5 @@ void LedStepRight(void)
 }
 
 
+=======
+>>>>>>> 689e3121736d8ac1df402bf31cc36aa55a066f39
