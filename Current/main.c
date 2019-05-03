@@ -5,6 +5,8 @@
 #define MAX_KEYWORD_STRING_LTH 10
 #define MAX_KEYWORD_NR 3
 
+//KOMENTARZ DLA UWAGI
+
 typedef enum Result {OK, ERROR} Result;
 enum CompResult {DIFFERENT, EQUAL};
 
