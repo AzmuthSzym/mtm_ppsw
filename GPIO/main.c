@@ -9,6 +9,7 @@
 #define S2_bm (1<<4)
 #define S3_bm (1<<6)
 
+//TEST DO GITA
 
 enum ButtonState {RELEASED1, PRESSED};
 enum KeyboardState {RELEASED, BUTTON_0, BUTTON_1, BUTTON_2, BUTTON_3};
